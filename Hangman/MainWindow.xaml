@@ -1,0 +1,21 @@
+﻿<Window x:Class="Hangman.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hangman"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_show" Content="Play" HorizontalAlignment="Left" Height="67" Margin="25,335,0,0" VerticalAlignment="Top" Width="150" Click="btn_show_Click"/>
+        <Label x:Name="title" Content="Hangman" HorizontalAlignment="Left" Height="52" Margin="25,10,0,0" VerticalAlignment="Top" Width="350" FontSize="36" FontWeight="Bold" FontFamily="Bernard MT Condensed"/>
+        <Image x:Name="img_hangman" HorizontalAlignment="Left" Height="210" Margin="25,67,0,0" VerticalAlignment="Top" Width="220"/>
+        <StackPanel x:Name="st_word" Height="60" Width="502" HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal" Margin="0,0,20,36"></StackPanel>
+        <StackPanel x:Name="st_keysFirst" HorizontalAlignment="Center" Height="60" Margin="259,62,0,0" VerticalAlignment="Top" Width="502" Orientation="Horizontal"/>
+        <StackPanel x:Name="st_keysSecond" HorizontalAlignment="Center" Height="60" Margin="259,127,0,0" VerticalAlignment="Top" Width="502" Orientation="Horizontal"/>
+        <StackPanel x:Name="st_keysThird" HorizontalAlignment="Center" Height="60" Margin="259,192,0,0" VerticalAlignment="Top" Width="502" Orientation="Horizontal"/>
+
+
+
+    </Grid>
+</Window>
